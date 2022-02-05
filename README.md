@@ -1,1 +1,0 @@
-# megumiyoriyasu.github.io
