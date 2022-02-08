@@ -1,50 +1,65 @@
 * {
   margin: 0;
+  padding: 0;
+  font-family: 'Rajdhani', sans-serif;
   line-height: 1.5em;
 }
 
-#img-perfil {
-  position: absolute;
-}
-#title {
-  padding: 5% 20% 5% 0;
-  background-color: black;
-  color: white;
-  font-family: 'Amatic SC', sans-serif;
-  text-align: right;
-}
-#indice {
-  font-size: 20px;
-  margin: 400px 0 400px 1000px;
-}
-#vida {
-  background-color: #d3d3d3;
-  padding: 100px 200px;
-  font-size: 20px;
-}
-#link-fotos {
-  font-style: italic;
-}
-#end {
-  padding: 50px 0px 30px 100px;
-}
-
-.font-base {
-  font-family: 'Montserrat', sans-serif;
-}
-
-h1 {
-  font-size: 5em;
-}
-h2 {
-  font-size: 2em;
+a {
+  text-decoration: inherit;
+  color: inherit;
 }
 h3 {
   font-size: 1.5em;
-  margin-top: 50px;
-  margin-left: 50px;
+  margin-bottom: 20px;
 }
-ul {
-  margin-top: 20px;
-  margin-left: 100px;
+
+#header {
+  color: white;
+  background-color: black;
+  background-position: 50%;
+  font-size: 20px;
+  text-align: right;
+  padding: 5% 10% 5% 0;
+}
+#foto-perfil {
+  position: absolute;
+  margin-top: -200px;
+  margin-left: 10%;
+}
+#indice {
+  min-height: 300px;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 35%;
+  margin-top: 300px;
+}
+#vida {
+  background-color: #888888;
+  padding: 100px 200px;
+  font-size: 20px;
+  color: white;
+}
+#habilit {
+  font-size: 25px;
+  text-align: center;
+}
+#footer {
+  font-size: 20px;
+  margin-left: 70px;
+}
+#link-fotos {
+  padding: 5px 10px 5px 10px;
+}
+#link-fotos:hover {
+  background-color: #888888;
+  color: white;
+}
+
+.section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.font-base {
+  font-family: 'Montserrat', sans-serif;
 }
